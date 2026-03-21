@@ -1,0 +1,10 @@
+/* CSS for all pages will go here, such as fonts, header styles and footer styles */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    width: 100%;
+}

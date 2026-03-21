@@ -1,18 +1,11 @@
+/* This is for CSS exclusive to the child pages */
+
 :root {
     --primary-color: #FEF1D7;
     --secondary-color: #582119;
     --acc1: #1A1813;
     --acc2: #906C54;
     --acc3: #D0A772;
-}
-
-body {
-    margin: 0px;
-    padding: 0px;
-}
-
-.header {
-    width: 100%;
 }
 
 .heroDiv {
