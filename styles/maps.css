@@ -8,6 +8,39 @@
     --acc3: #D0A772;
 }
 
-.heroDiv {
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.hero {
     width: 100%;
+    text-align: center;
+}
+
+.heroIMG {
+    width: 100%;
+    margin: auto;
+}
+
+.explore {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.explore section {
+    align-items: center;
+    width: 95%;
+}
+
+.cropbox {
+  width: 100%;  /* Set the desired cropped width */
+  height: 250px; /* Set the desired cropped height */
+}
+
+.cropbox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crops the image to cover the container while preserving aspect ratio */
+  object-position: center; /* Centers the image within the container (default) */
 }
