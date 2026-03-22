@@ -34,8 +34,8 @@ main {
 }
 
 .cropbox {
-  width: 100%;  /* Set the desired cropped width */
-  height: 250px; /* Set the desired cropped height */
+  width: 100%;
+  height: 250px;
 }
 
 .cropbox img {
@@ -43,4 +43,23 @@ main {
   height: 100%;
   object-fit: cover; /* Crops the image to cover the container while preserving aspect ratio */
   object-position: center; /* Centers the image within the container (default) */
+}
+
+#totk {
+    height: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.fillbox {
+    width: 50%;
+    height: 250px;
+    float: right;
+}
+
+.fillbox img {
+    aspect-ratio: auto;
+    max-width: 100%;
+    max-height: 100%;
+    float:right;
 }

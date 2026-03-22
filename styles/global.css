@@ -5,6 +5,10 @@ body {
     padding: 0px;
 }
 
-.header {
+header {
     width: 100%;
+}
+
+footer {
+    padding-top: 50px;
 }
