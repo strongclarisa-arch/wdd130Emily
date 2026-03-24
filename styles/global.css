@@ -12,3 +12,8 @@ header {
 footer {
     padding-top: 50px;
 }
+
+:root {
+    --heading-font: Trajan;
+    --paragraph-font: Roboto;
+}
