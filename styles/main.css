@@ -1,1 +1,18 @@
 /* This is for CSS exclusive to the main page */
+
+header {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    max-width: 100%;
+}
+
+header img {
+    width: 120px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}

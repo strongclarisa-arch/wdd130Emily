@@ -16,4 +16,10 @@ footer {
 :root {
     --heading-font: Trajan;
     --paragraph-font: Roboto;
+
+    --primary-color: #FEF1D7;
+    --secondary-color: #582119 ;
+    --accent1-color: #1A1813;
+    --accent2-color: #906C54;
+    --accent3-color: #D0A772;
 }
