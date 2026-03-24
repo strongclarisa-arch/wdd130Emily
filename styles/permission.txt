@@ -1,0 +1,3 @@
+We recieved permission to have three sperate CSS files, as long as we have one global one, one for the main page, and one for the subpages.
+So, things like the CSS for the header and footer as well as fonts and colors should go into the global file, wheras the rest can go in their
+page-specific files.
