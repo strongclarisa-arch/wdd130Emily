@@ -2,12 +2,13 @@
 
 header {
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 600px 1fr;
     max-width: 100%;
+    background-color: #FEF1D7;
 }
 
 header img {
-    width: 120px;
+    width: 150px;
 }
 
 header nav {
@@ -15,4 +16,122 @@ header nav {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #582119;
+}
+
+nav a:hover {
+    color: #1A1813;
+}
+
+#hero {
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 2fr 50px 50px 30px 50px 80px 2fr;
+    max-width: 100%;
+    color: #1A1813;
+}
+
+#hero img {
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/8;
+    z-index: -1;
+}
+
+#hero h1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    backdrop-filter: blur(8px);
+    
+}
+#hero h2 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    backdrop-filter: blur(8px);
+}
+
+#hero h3 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    backdrop-filter: blur(8px);
+}
+
+#hero h4 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    backdrop-filter: blur(8px);
+}
+
+#hero #button{
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+
+#hero #button a {
+    text-decoration: none;
+    color: #D0A772;
+    background-color: #582119;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#hero #button a:hover {
+    color: #582119;
+    background-color: #D0A772;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #582119;
+}
+
+body {
+    background-color: #FEF1D7;
+}
+
+#gen {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+#gen p {
+    grid-column: 2/3;
+}
+
+#gen h1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+}
+
+#gen a {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-decoration: none;
+    color: #D0A772;
+    background-color: #582119;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#gen a:hover {
+    color: #582119;
+    background-color: #D0A772;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #582119;
+}
+
+main h2 {
+    margin: 80px;
 }
