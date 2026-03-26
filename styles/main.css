@@ -1,5 +1,7 @@
 /* This is for CSS exclusive to the main page */
 
+
+
 header {
     display: grid;
     grid-template-columns: 600px 1fr;
@@ -21,6 +23,7 @@ header nav {
 nav a {
     text-decoration: none;
     color: #582119;
+    font-family: var(--paragraph-font);
 }
 
 nav a:hover {
@@ -48,29 +51,34 @@ nav a:hover {
     grid-column: 2/3;
     grid-row: 2/3;
     backdrop-filter: blur(8px);
-    
+    font-family: var(--heading-font);
 }
+
 #hero h2 {
     grid-column: 2/3;
     grid-row: 3/4;
     backdrop-filter: blur(8px);
+    font-family: var(--heading-font);
 }
 
 #hero h3 {
     grid-column: 2/3;
     grid-row: 4/5;
     backdrop-filter: blur(8px);
+    font-family: var(--heading-font);
 }
 
 #hero h4 {
     grid-column: 2/3;
     grid-row: 5/6;
     backdrop-filter: blur(8px);
+    font-family: var(--heading-font);
 }
 
 #hero #button{
     grid-column: 2/3;
     grid-row: 6/7;
+    font-family: var(--heading-font);
 }
 
 #hero #button a {
@@ -92,6 +100,7 @@ nav a:hover {
 
 body {
     background-color: #FEF1D7;
+    color:#1A1813;
 }
 
 #gen {
@@ -105,12 +114,13 @@ body {
 
 #gen p {
     grid-column: 2/3;
+    font-family: var(--paragraph-font);
 }
 
 #gen h1 {
     grid-column: 2/3;
     grid-row: 2/3;
-    
+    font-family: var(--heading-font);
 }
 
 #gen a {
@@ -123,6 +133,7 @@ body {
     padding: 15px 30px;
     margin-top: 10px;
     border-radius: 5px;
+    font-family: var(--heading-font);
 }
 
 #gen a:hover {
@@ -133,5 +144,180 @@ body {
 }
 
 main h2 {
-    margin: 80px;
+    margin-left: 80px;
 }
+
+#cards {
+    margin-left: 70px;
+    margin-right: 70px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px;
+}
+
+#hyrule {
+    border: 5px solid #906C54;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    height: 250px;
+    background-color: #D0A772;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #906C54;
+}
+
+#hyrule h1 {
+    padding-top: 50px;
+    font-family: var(--heading-font);
+}
+
+#hyrule h5 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-bottom: 50px;
+    font-family: var(--paragraph-font);
+}
+
+#hyrule img {
+    grid-row: 1/3;
+    width: 100%;
+    height: 90%;
+}
+
+#hyrule p {
+    grid-row: 1/3;
+    text-align: center;
+    font-family: var(--paragraph-font);
+}
+
+#hyrule a {
+    grid-row: 1/3;
+    text-decoration: none;
+    color: #FEF1D7;
+    background-color: #582119;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: var(--heading-font);
+}
+
+#hyrule a:hover {
+    color: #582119;
+    background-color: #FEF1D7;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #582119;
+}
+
+#middle-earth {
+    border: 5px solid #906C54;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    height: 250px;
+    background-color: #D0A772;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #906C54;
+}
+
+#middle-earth h1 {
+    padding-top: 50px;
+    font-family: var(--heading-font);
+}
+
+#middle-earth h5 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-bottom: 50px;
+    font-family: var(--paragraph-font);
+}
+
+#middle-earth img {
+    grid-row: 1/3;
+    width: 100%;
+    height: 90%;
+}
+
+#middle-earth p {
+    grid-row: 1/3;
+    text-align: center;
+    font-family: var(--paragraph-font);
+}
+
+#middle-earth a {
+    grid-row: 1/3;
+    text-decoration: none;
+    color: #FEF1D7;
+    background-color: #582119;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: var(--heading-font);
+}
+
+#middle-earth a:hover {
+    color: #582119;
+    background-color: #FEF1D7;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #582119;
+}
+
+#box {
+    border: 5px solid #906C54;
+    height: 250px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: #D0A772;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #906C54;
+    display: grid;
+    grid-row: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    font-family: var(--heading-font);
+}
+
+#Maps {
+    padding: 5px;
+}
+
+#box a {
+    text-decoration: none;
+    color: #FEF1D7;
+    background-color: #582119;
+    font-size: 18px;
+    padding: 10px 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#box a:hover {
+    color: #582119;
+    background-color: #FEF1D7;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #582119;
+}
+
+footer {
+    border: 5px solid #906C54;
+    background-color: #D0A772;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 2fr 2fr 2fr;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    font-family: var(--paragraph-font);
+}
+
