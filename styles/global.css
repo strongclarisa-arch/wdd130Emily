@@ -24,3 +24,46 @@ footer {
     --accent2-color: #906C54;
     --accent3-color: #D0A772;
 }
+
+header {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    max-width: 100%;
+    background-color: #FEF1D7;
+    border-bottom: 2px solid var(--accent2-color);
+}
+
+header img {
+    width: 150px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #582119;
+    font-family: var(--paragraph-font);
+}
+
+nav a:hover {
+    color: #1A1813;
+}
+
+footer {
+    border: 5px solid #906C54;
+    background-color: #D0A772;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 2fr 2fr 2fr;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    font-family: var(--paragraph-font);
+}

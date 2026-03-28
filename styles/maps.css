@@ -13,6 +13,43 @@ main {
     margin: auto;
 }
 
+body {
+    background-color: var(--primary-color);
+}
+
+.explore section {
+    border: 5px solid #906C54;
+    background-color: #D0A772;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.explore section p,h3 {
+    padding: 5px;
+}
+
+.explore section button {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+button {
+    color: #D0A772;
+    background-color: #582119;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    padding:10px;
+}
+
+button:hover {
+    color: #582119;
+    background-color: var(--primary-color);
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #582119;
+}
+
 .hero {
     width: 100%;
     text-align: center;
@@ -47,19 +84,32 @@ main {
 
 #totk {
     height: 300px;
-    margin: auto;
+    margin: 0px;
+    margin-top: 75px;
     text-align: center;
+    border: 5px solid #906C54;
+    background-color: #D0A772;
+    display: flex;
+    box-sizing: border-box;
+    width: calc(100% - 10px);
 }
 
-.fillbox {
-    width: 50%;
-    height: 250px;
-    float: right;
+#totk img {
+    height: 100%;
+    width: auto;
+    flex-shrink: 0;
+    display: block;
 }
 
-.fillbox img {
-    aspect-ratio: auto;
-    max-width: 100%;
-    max-height: 100%;
-    float:right;
+#totk .wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer {
+    margin-top: 75px;
 }
